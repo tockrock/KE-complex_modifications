@@ -1,0 +1,24 @@
+{
+  "title": "Personal rules (@rtpg)",
+  "rules": [
+    {
+      "description": "Disable Command-Q",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ]
+            }
+          },
+          "to": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}
